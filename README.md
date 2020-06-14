@@ -58,6 +58,7 @@ Only when the status code is 200 then only it calls JOB 4.
 
 <h3>JOB 4</h3>
 This is a downstream job called by Job 3. This job merges the dev1 branch to master developer. And further calls Job 1.
+
  ![job4](https://raw.githubusercontent.com/yashbajpai98/task1LW/master/task1-images/job1.PNG)
 <ul>
   <li> Merges the dev1 branch to master.</li>
@@ -67,5 +68,6 @@ This is a downstream job called by Job 3. This job merges the dev1 branch to mas
  
 <h3>PIPELINING VIEW</h3>
 Here is the view of all jobs running.
+
  ![pipeline](https://raw.githubusercontent.com/yashbajpai98/task1LW/master/task1-images/pipeline.PNG)
 
