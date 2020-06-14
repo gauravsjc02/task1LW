@@ -14,6 +14,8 @@ Production Team will deploy the code first, now there is some work going on in t
 </ol>
 
 <h2>MY PROJECT:</h2>
+First the developer sends its code, Quality Assurance teams checks it.
+![Before](https://raw.githubusercontent.com/yashbajpai98/task1LW/master/task1-images/master-before.PNG)
 I had a combination of 4 jobs as described:
 <h3>JOB 1</h3>
 As soon as a master developer put his code on github. A job1 is called which downloads all his codes from "master branch" and deploy on a apache web server already built in httpd image.
@@ -49,5 +51,7 @@ This is a downstream job called by Job 3. This job merges the dev1 branch to mas
   <li> Merges the dev1 branch to master.</li>
   <li> Calls Job 1 after it is build.</li>
  </ul>
+ 
+ 
 
 
