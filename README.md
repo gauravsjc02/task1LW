@@ -1,3 +1,4 @@
+<h1>Deployment after the approval of Quality Assurance Team.</h1>
 <h2>OBJECTIVE:</h2>
 Setup up an infrastructure such as there are three teams/environemnts :
 
@@ -15,7 +16,13 @@ Production Team will deploy the code first, now there is some work going on in t
 
 <h2>MY PROJECT:</h2>
 First the developer sends its code, Quality Assurance teams checks it.
+
 ![Before](https://raw.githubusercontent.com/yashbajpai98/task1LW/master/task1-images/master-before.PNG)
+ If this is approved by my team, it will reflect my work to main server.
+  ![gitbash](https://raw.githubusercontent.com/yashbajpai98/task1LW/master/task1-images/gitbash.PNG)
+Finally after commit its now on the main server. 
+ ![after](https://raw.githubusercontent.com/yashbajpai98/task1LW/master/task1-images/master-after.PNG)
+
 I had a combination of 4 jobs as described:
 <h3>JOB 1</h3>
 As soon as a master developer put his code on github. A job1 is called which downloads all his codes from "master branch" and deploy on a apache web server already built in httpd image.
@@ -53,5 +60,7 @@ This is a downstream job called by Job 3. This job merges the dev1 branch to mas
  </ul>
  
  
-
+<h3>PIPELINING VIEW</h3>
+Here is the view of all jobs running.
+![pipeline](https://raw.githubusercontent.com/yashbajpai98/task1LW/master/task1-images/pipeline.PNG)
 
