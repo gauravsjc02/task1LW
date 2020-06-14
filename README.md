@@ -17,7 +17,7 @@ Production Team will deploy the code first, now there is some work going on in t
 I had a combination of 4 jobs as described:
 <h3>JOB 1</h3>
 As soon as a developer put his code on github. A job1 is called which downloads all his codes from "master branch" and deploy on a apache web server already built in httpd image.
-
+![alt img="1"](https://raw.githubusercontent.com/yashbajpai98/task1LW/master/task1-images/job1.PNG)
 <ul>
   <li> -p 8081:80 This exposes the port no. 8081 of particular image as to access through outside world. </li>
   <li> -v /root/taskmaster: This shows that an outside volume is attached to destination folder of particular container.
